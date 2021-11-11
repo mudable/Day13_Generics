@@ -8,20 +8,20 @@ import junit.framework.Assert;
 
 class TestMaxOfThree {
 	@Test
-	public void given3FloatValues_WhenGetMaximum_ShouldReturnCorrectValue1() {
-		float finalResult = MaxOfThreeFloat.getmaximum(9.6f, 1.4f, 4.4f);
-		Assert.assertEquals(9.6f, finalResult, 0.0);
+	public void given3StringValues_WhenGetMaximum_ShouldReturnCorrectValue1() {
+		String finalResult =MaxOfThreeString.getmaximum("apple", "peach", "banana");
+		Assert.assertEquals("peach", finalResult);
 	}
 
 	@Test
-	public void given3FloatValues_WhenGetMaximum_ShouldReturnCorrectValue2() {
-		float finalResult = MaxOfThreeFloat.getmaximum(1.4f, 9.6f, 4.4f);
-		Assert.assertEquals(9.6f, finalResult, 0.0);
+	public void given3StringValues_WhenGetMaximum_ShouldReturnCorrectValue2() {
+		String finalResult = MaxOfThreeString.getmaximum("apple", "peach", "banana");
+		Assert.assertEquals("peach", finalResult);
 	}
 
 	@Test
-	public void given3FloatValues_WhenGetMaximum_ShouldReturnCorrectValue3() {
-		float finalResult = MaxOfThreeFloat.getmaximum(9.6f, 1.4f, 4.4f);
-		Assert.assertEquals(9.6f, finalResult, 0.0);
+	public void given3StringValues_WhenGetMaximum_ShouldReturnCorrectValue3() {
+		String finalResult =MaxOfThreeString.getmaximum("apple", "peach", "banana");
+		Assert.assertEquals("peach", finalResult);
 	}
 }
